@@ -8,7 +8,7 @@ Install pyinstaller
 
 Run pyinstaller on the gui.py file
 
-    pyinstall --clean --windowed --name "Spherical Metadata Injector" gui.py
+    pyinstaller --clean --windowed --name "Spherical Metadata Injector" gui.py
 
 If on Mac OS X modify Spherical\ Metadata\ Injector.app/Contents/info.plist and
 add "High Resolution Capable" key with value "YES".
